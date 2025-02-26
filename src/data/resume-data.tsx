@@ -1,81 +1,61 @@
 import { GitHubIcon, LinkedInIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Tuna Gönen",
-  initials: "TG",
+  name: "Ata Tuna",
+  initials: "AT",
   location: "London, UK",
   about: "",
-  summary:
-    "Full stack data scientist experienced on building data visualization and natural language processing applications, proficient in Python and Typescript, interested in large models and music AI.",
+  summary: "Detail-oriented Machine Learning & AI Research Master's Graduate. My research’s focus was on generative models for networks and topological structures.",
   contact: {
-    email: "tunagonen@gmail.com",
-    tel: "+447904872456",
+    email: "ata.tuna@email.com",
+    tel: "+44 739 253 0859",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/tunagonen",
+        url: "https://github.com/Ata-Tuna",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/tuna-g%C3%B6nen-024340b6/",
+        url: "https://www.linkedin.com/in/ata-tuna/",
         icon: LinkedInIcon,
       },
     ],
   },
   education: [
     {
-      school: "University of Oxford",
-      degree: "MEng (Master of Engineering in Engineering Science)",
-      start: "2015",
-      end: "2021",
+      school: "Imperial College London",
+      degree: "MRes Artificial Intelligence & Machine Learning",
+      start: "Oct 2023",
+      end: "Oct 2024",
       description: "2.i",
+    },
+
+    {
+      school: "University of Edinburgh",
+      degree: "BSc Mathematics & Statistics",
+      start: "Sep 2018",
+      end: "May 2023",
+      description: "2.i, in second year I transferred from mechanical engineering.",
     },
   ],
   work: [
     {
-      company: "Red Sift",
-      link: { href: "https://redsift.com" },
-      badges: [],
-      title: "Data Scientist",
-      start: "Dec 2022",
-      end: null,
+      company: "REEF Technology",
+      link: "https://reeftechnology.com/",
+      badges: ["Remote", "R", "Excel"],
+      title: "Data Intern",
+      start: "July 2023",
+      end: "August 2023",
       descriptions: [
-        "⦿ Training of NLP models for proof-of-concept projects on text classification, utilizing both publicly available datasets and custom data collection through web scraping techniques.",
-        "⦿ Engineered and maintained scripts and Jupyter notebooks for the robust evaluation and monitoring of models in production environments, ensuring high reliability and performance.",
-        "⦿ Led the implementation and experimentation of new product features, incorporating new NLP methodologies such as fine-tuning of large language models (LLMs), and developing sophisticated systems through function calling and retrieval-augmented generation techniques.",
-        "⦿ Organized and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
-      ],
-    },
-    {
-      company: "King's College, Human Centred Computing Group",
-      link: { href: "https://www.kcl.ac.uk/research/hcc" },
-      badges: [],
-      title: "Research Software Engineer",
-      start: "Mar 2022",
-      end: "Dec 2022",
-      descriptions: [
-        "⦿ Co-led the full-stack development of a visualization system tailored for epigenetics researchers, facilitating the exploration of connections between DNA methylation patterns and complex human traits using advanced network summarization and community detection algorithms.",
-        "⦿ Orchestrated interdisciplinary meetings with computer scientists and domain experts to benchmark existing systems and identify novel research opportunities in multi-omics data integration and analysis.",
-      ],
-    },
-    {
-      company: "University of Oxford, e-Research Center",
-      link: { href: "https://oerc.ox.ac.uk/" },
-      badges: [],
-      title: "Research Software Engineer",
-      start: "Jul 2021",
-      end: "Feb 2022",
-      descriptions: [
-        "⦿ Responsible for the full-stack development of a multidimensional time-series search, visualization, and prediction system, empowering health experts and decision-makers to dissect and compare global pandemic trends. Incorporated time-series similarity and clustering algorithms, complemented by uncertainty visualization, to deliver critical insights.",
-        "⦿ Partnered with a diverse team of academics from machine learning and data visualization fields to forge interactive Observable notebooks which includes state-of-the-art data-mining techniques and innovative dashboard designs tailored for helping governmental decision-making capabilities.",
-        "⦿ Directed and refined iterative online surveys, and orchestrated 'think aloud' feedback sessions with target users to pinpoint necessary system enhancements and optimize user interface design.",
+        "⦿ Clean datasets collected on the field such as vessels and warehouses.",
+        "⦿ Read simple financial contracts.",
+        // "⦿ Organized and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
       ],
     },
   ],
   publications: [
-    '⦿ T. Gonen et al., "Visual Analytics based Search-Analyze-Forecast Framework for Epidemiological Time-series Data," 2023 IEEE VIS Workshop on Visualization for Pandemic and Emergency Responses (Vis4PandEmRes), Melbourne, Australia, 2023.',
-    '⦿ J. Dykes et al., "Visualization for epidemiological modelling: challenges, solutions, reflections and recommendations" Phil. Trans. R. Soc. , 2022.',
+    '⦿ Tuna, A. (2025). A Deep Autoregressive Model for Dynamic Combinatorial Complexes. Zenodo. https://doi.org/10.5281/zenodo.14907028',
   ],
   skills: [
     "Statistical Modelling and Evaluation",
@@ -84,43 +64,59 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "Red Sift Radar",
-      techStack: ["Next.js", "LLM APIs", "GraphQL", "BigQuery", "Vercel"],
+      title: "DAMCC",
+      techStack: ["PyTorch", "Docker", "Scikit-Learn", "NetworkX", "Torch-Geometric"],
       description:
-        "Chatbot with RAG and function calling abilities for cybersecurity applications",
+        "The first deep learning model designed to generate dynamic combinatorial complexes (CCs)",
       link: {
-        label: "Redsift Radar",
-        href: "https://radar.redsift.com",
+        label: "DAMCC",
+        href: "https://github.com/Ata-Tuna/DAMCC_1.2.git",
       },
     },
     {
-      title: "Red Sift OnInbox & VendorSecure",
+      title: "TaxOff",
       techStack: [
         "Web Scraping",
         "Scikit-Learn",
         "PyTorch",
-        "Docker",
-        "AWS",
-        "Datadog",
+
       ],
       description:
-        "Supply chain threat detection and security monitoring system using NLP models",
+        "LLM based tax management system developed during and after AI Ventures Hackathon organised by Imperial's Business School.",
+    },
+
+  ],
+
+  volunteering: [
+    {
+      title: "MathClans Leader",
+      organization: "University of Edinburgh, School of Mathematics",
+      start: "Sep 2021",
+      end: "Aug 2022",
+      descriptions: [
+        "⦿ Successfully created a sense of community within the School of Mathematics, helping to integrate new students.",
+        "⦿ Organized events and promoted activities related to MathClans throughout the year with the support of the School of Mathematics.",
+      ],
     },
     {
-      title: "VASAP",
-      techStack: ["Next.js", "d3.js", "FastAPI", "Scikit-Learn"],
-      description:
-        "COVID timeseries similarity-based query and prediction engine.",
-      link: {
-        label: "VASAP Rampvis",
-        href: "https://github.com/ScottishCovidResponse/",
-      },
+      title: "Programme Representative",
+      organization: "Edinburgh University Students' Association",
+      start: "Sep 2021",
+      end: "Aug 2022",
+      descriptions: [
+        "⦿ Represented 3rd year students at the School of Mathematics, University of Edinburgh.",
+        "⦿ Gathered feedback from students and communicated it to relevant staff through Student Staff Liaison Committee meetings.",
+      ],
     },
     {
-      title: "VATS",
-      techStack: ["Next.js", "Sigma.js", "d3.js", "FastAPI"],
-      description:
-        "Circular plots and network diagrams for multi-omic datasets used by epigenetics researchers.",
+      title: "Academic Societies Representative",
+      organization: "Edinburgh University Students' Association",
+      start: "Oct 2019",
+      end: "May 2020",
+      descriptions: [
+        "⦿ Conveyed ideas and concerns regarding academic societies.",
+        "⦿ Participated in decision-making processes, including motions, proposals, and council voting.",
+      ],
     },
   ],
 } as const;
