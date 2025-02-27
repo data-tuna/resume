@@ -7,7 +7,7 @@ import React from "react";
 
 export const metadata: Metadata = {
   title: "CV",
-  description: "Tuna Gönen",
+  description: "Ata Tuna",
   icons: {
     icon: './favicon.ico'
   }
