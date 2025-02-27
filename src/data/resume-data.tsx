@@ -69,9 +69,9 @@ export const RESUME_DATA = {
   projects: [
     {
       title: "DAMCC",
-      techStack: ["PyTorch", "Docker", "Scikit-Learn", "NetworkX", "Torch-Geometric"],
+      techStack: ["PyTorch", "Scikit-Learn", "NetworkX", "Torch-Geometric", "Docker"],
       description:
-        "The first deep learning model designed to generate dynamic combinatorial complexes (CCs)",
+        "The first deep learning model designed to generate dynamic combinatorial complexes (CCs). This is the model I developed for my MRes thesis.",
       link: {
         label: "DAMCC",
         href: "https://github.com/Ata-Tuna/DAMCC_1.2.git",
@@ -83,23 +83,26 @@ export const RESUME_DATA = {
         "Web Scraping",
         "Scikit-Learn",
         "PyTorch",
-
       ],
+      award: "UK Winner",
       description:
-        "LLM based tax management system developed during and after AI Ventures Hackathon organised by Imperial's Business School.",
+        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon.",
     },
     {
       title: "HYPED",
       techStack: [
         "SolidWorks",
         "MATLAB",
-        "COMSOL Multiphysics",
-        "Autodesk Fusion 360",
-
+        "COMSOL",
       ],
+      award: "UK Winner",
       description:
-        "LLM based tax management system developed during and after AI Ventures Hackathon organised by Imperial's Business School.",
-    },
+        "In my year, we were the top Hyperloop team in the UK, received awards from SpaceX, Virgin Hyperloop One, and Institution of Civil Engineers. Participated in the finals at SpaceX, California.",
+      link: {
+        label: "hyped",
+        href: "https://www.hyp-ed.com/",
+      },
+      },
 
   ],
 
