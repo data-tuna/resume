@@ -233,7 +233,7 @@ export default function Page() {
         </Section>
 
         <Section className="scroll-mb-16">
-          <h2 className="text-l font-bold">Projects</h2>
+          <h2 className="text-l font-bold">Projects & Awards</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
             {RESUME_DATA.projects.map((project) => {
               return (

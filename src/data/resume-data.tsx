@@ -45,8 +45,8 @@ export const RESUME_DATA = {
       link: "https://reeftechnology.com/",
       badges: ["Remote", "R", "Excel"],
       title: "Data Intern",
-      start: "July 2023",
-      end: "August 2023",
+      start: "Jul 2023",
+      end: "Aug 2023",
       descriptions: [
         "⦿ Clean datasets collected on the field such as vessels and warehouses.",
         "⦿ Read simple financial contracts.",
@@ -59,8 +59,12 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Statistical Modelling and Evaluation",
-    "Model Deployment and Monitoring",
-    "Web Development with Next.js",
+    "Topological Data Analysis",
+    "Generative Models",
+    "Graph Neural Networks",  
+    "PyTorch",
+    "Deep Learning",
+
   ],
   projects: [
     {
@@ -84,6 +88,18 @@ export const RESUME_DATA = {
       description:
         "LLM based tax management system developed during and after AI Ventures Hackathon organised by Imperial's Business School.",
     },
+    {
+      title: "HYPED",
+      techStack: [
+        "SolidWorks",
+        "MATLAB",
+        "COMSOL Multiphysics",
+        "Autodesk Fusion 360",
+
+      ],
+      description:
+        "LLM based tax management system developed during and after AI Ventures Hackathon organised by Imperial's Business School.",
+    },
 
   ],
 
@@ -94,8 +110,8 @@ export const RESUME_DATA = {
       start: "Sep 2021",
       end: "Aug 2022",
       descriptions: [
-        "⦿ Successfully created a sense of community within the School of Mathematics, helping to integrate new students.",
-        "⦿ Organized events and promoted activities related to MathClans throughout the year with the support of the School of Mathematics.",
+        "⦿ Created a sense of community within the School of Mathematics, integrating new students.",
+        "⦿ Organized events and promoted activities related to MathClans throughout the year.",
       ],
     },
     {
@@ -104,8 +120,8 @@ export const RESUME_DATA = {
       start: "Sep 2021",
       end: "Aug 2022",
       descriptions: [
-        "⦿ Represented 3rd year students at the School of Mathematics, University of Edinburgh.",
-        "⦿ Gathered feedback from students and communicated it to relevant staff through Student Staff Liaison Committee meetings.",
+        "⦿ Represented School of Mathematics 3'rd years at the Students' Association.",
+        "⦿ Gathered feedback from students and communicated it to Student Staff Liaison Committee.",
       ],
     },
     {
@@ -114,7 +130,7 @@ export const RESUME_DATA = {
       start: "Oct 2019",
       end: "May 2020",
       descriptions: [
-        "⦿ Conveyed ideas and concerns regarding academic societies.",
+        "⦿ Conveyed ideas and concerns regarding all the academic societiesof the university.",
         "⦿ Participated in decision-making processes, including motions, proposals, and council voting.",
       ],
     },
