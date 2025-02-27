@@ -150,7 +150,7 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base ">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                      <a className="hover:underline" href={work.link.href}>
+                      <a className="hover:underline" href={work.link} target="_blank" rel="noopener noreferrer">
                         {work.company}
                       </a>
 
@@ -216,12 +216,12 @@ export default function Page() {
         </Section>
 
         <Section>
-          <h2 className="text-xl font-bold">Leadership</h2>
+          <h2 className="text-l font-bold">Leadership</h2>
           {RESUME_DATA.volunteering.map((volunteer) => {
             return (
               <Card key={volunteer.organization}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between gap-x-2 text-sm">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       {volunteer.organization}
                     </h3>
@@ -247,7 +247,7 @@ export default function Page() {
             );
           })}
         </Section>
-        
+
       </section>
 
       <CommandMenu
