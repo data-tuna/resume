@@ -2,7 +2,7 @@
   "name": "web-cv",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gitname.github.io/tunagonen.github.io",
+  "homepage": "https://gitname.github.io/atatuna.github.io",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
