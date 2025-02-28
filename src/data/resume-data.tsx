@@ -25,7 +25,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Imperial College London",
-      degree: "MRes Artificial Intelligence & Machine Learning",
+      degree: "Master of Research (MRes) in Artificial Intelligence & Machine Learning.",
       start: "Oct 2023",
       end: "Oct 2024",
       description: "2.i",
@@ -33,7 +33,7 @@ export const RESUME_DATA = {
 
     {
       school: "University of Edinburgh",
-      degree: "BSc Mathematics & Statistics",
+      degree: "Bachelor of Science (BSc) in Mathematics & Statistics",
       start: "Sep 2018",
       end: "May 2023",
       description: "2.i, in second year I transferred from mechanical engineering.",
@@ -49,7 +49,7 @@ export const RESUME_DATA = {
       end: "Aug 2023",
       descriptions: [
         "⦿ Optimised and cleaned datasets collected on the field such as vessels and warehouses.",
-        "⦿ Read simple financial contracts and corrected errors.",
+        "⦿ Reviewed and interpreted simple financial contracts and corrected errors.",
         // "⦿ Organized and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
       ],
     },
