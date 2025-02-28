@@ -48,8 +48,8 @@ export const RESUME_DATA = {
       start: "Jul 2023",
       end: "Aug 2023",
       descriptions: [
-        "⦿ Clean datasets collected on the field such as vessels and warehouses.",
-        "⦿ Read simple financial contracts.",
+        "⦿ Optimised and cleaned datasets collected on the field such as vessels and warehouses.",
+        "⦿ Read simple financial contracts and corrected errors.",
         // "⦿ Organized and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
       ],
     },
@@ -59,10 +59,10 @@ export const RESUME_DATA = {
   ],
   skills: [
     "Statistical Modelling and Evaluation",
+    "Stochastic Calculus",
     "Topological Data Analysis",
     "Generative Models",
     "Graph Neural Networks",  
-    "PyTorch",
     "Deep Learning",
 
   ],
@@ -133,7 +133,7 @@ export const RESUME_DATA = {
       start: "Oct 2019",
       end: "May 2020",
       descriptions: [
-        "⦿ Conveyed ideas and concerns regarding all the academic societiesof the university.",
+        "⦿ Conveyed ideas and concerns regarding all the academic societies of the university.",
         "⦿ Participated in decision-making processes, including motions, proposals, and council voting.",
       ],
     },
