@@ -1,3 +1,3 @@
 - host minimalist cv originally from `https://github.com/BartoszJarocki/cv` in github pages
-- forked from `https://github.com/tunagonen/cv` in github pages
+- forked from `https://github.com/tunagonen/cv`
 - <a href=https://ata-tuna.github.io/cv>ata-tuna.github.io/cv</a>
