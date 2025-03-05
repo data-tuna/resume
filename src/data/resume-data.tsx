@@ -55,7 +55,7 @@ export const RESUME_DATA = {
     },
   ],
   publications: [
-    '⦿ Tuna, A. (2025). A Deep Autoregressive Model for Dynamic Combinatorial Complexes. Zenodo. https://doi.org/10.5281/zenodo.14907028',
+    '⦿ A. Tuna, "A Deep Autoregressive Model for Dynamic Combinatorial Complexes," arXiv preprint, 2025. DOI: 10.48550/arXiv.2503.01999.',
   ],
   skills: [
     "Statistical Modelling and Evaluation",
