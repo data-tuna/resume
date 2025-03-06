@@ -12,11 +12,12 @@ interface Props {
   description: string;
   tags: readonly string[];
   link?: string;
+  className?: string; // Added this line to accept className prop
 }
 
-export function ProjectCard({ title, description, tags, link }: Props) {
+export function ProjectCard({ title, description, tags, link, className }: Props) {
   return (
-    <Card className="flex flex-col overflow-hidden border border-muted p-3">
+    <Card className={`flex flex-col overflow-hidden border border-muted p-3 ${className || ''}`}>
       <CardHeader className="">
         <div className="space-y-1">
           <CardTitle className="text-sm">
