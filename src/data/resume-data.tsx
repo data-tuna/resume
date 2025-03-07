@@ -14,6 +14,8 @@ export const RESUME_DATA = {
       .
     </>
   ),
+  summaryPlainText: "MRes graduate in Artificial Intelligence & Machine Learning from Imperial College London, specializing in generative models and topological data analysis. Proficient in Python, R, and statistical modeling, with a strong foundation in mathematics and statistics. The most up to date version of this CV is hosted at ata-tuna.github.io/cv.",
+  // ... other data
   contact: {
     email: "ata.tuna.work@gmail.com",
     tel: "+44 739 253 0859",

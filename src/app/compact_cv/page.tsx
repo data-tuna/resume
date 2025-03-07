@@ -10,7 +10,7 @@ import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} - Compact Version`,
-  description: RESUME_DATA.summary,
+  description: RESUME_DATA.summaryPlainText,
   icons: {
     icon: "./favicon.ico",
     apple: "./apple-icon.png",
