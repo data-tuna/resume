@@ -1,10 +1,10 @@
-import { Card, CardHeader, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+import { Card, CardHeader, CardContent } from "@/components/compact_ui/card";
+import { Badge } from "@/components/compact_ui/badge";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
-import { Section } from "@/components/ui/section";
+import { Section } from "@/components/compact_ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/compact_ui/button";
 import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 
 export default function CompactPage() {
   return (
-    <main className="container relative mx-auto overflow-auto p-2 md:p-6 print:p-4 small-font">
-      <section className="mx-auto w-full max-w-2xl space-y-3 bg-white print:space-y-2">
+    <main className="container relative mx-auto overflow-auto p-1 md:p-4 print:p-2 small-font">
+      <section className="mx-auto w-full max-w-2xl space-y-2 bg-white print:space-y-1">
         <div className="flex items-center justify-between">
-          <div className="flex-1 space-y-1">
-            <h1 className="text-xl font-bold">{RESUME_DATA.name}</h1>
+          <div className="flex-1 space-y-0.5">
+            <h1 className="text-lg font-bold">{RESUME_DATA.name}</h1>
             <p className="max-w-md text-pretty font-mono text-xs text-foreground/80">
               {RESUME_DATA.about}
             </p>
@@ -40,7 +40,7 @@ export default function CompactPage() {
             <div className="flex gap-x-1 pt-0.5 font-mono text-sm text-foreground/80 print:hidden">
               {RESUME_DATA.contact.email ? (
                 <Button
-                  className="size-6"
+                  className="size-5"
                   variant="outline"
                   size="icon"
                   asChild
@@ -52,7 +52,7 @@ export default function CompactPage() {
               ) : null}
               {RESUME_DATA.contact.tel ? (
                 <Button
-                  className="size-6"
+                  className="size-5"
                   variant="outline"
                   size="icon"
                   asChild
@@ -65,7 +65,7 @@ export default function CompactPage() {
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}
-                  className="size-6"
+                  className="size-5"
                   variant="outline"
                   size="icon"
                   asChild
@@ -90,18 +90,19 @@ export default function CompactPage() {
             </div>
           </div>
         </div>
+        
         <Section className="py-0">
-          <h2 className="text-lg font-bold">About</h2>
+          <h2 className="text-base font-bold">About</h2>
           <p className="text-pretty font-mono text-xs text-foreground/80">
             {RESUME_DATA.summary}
           </p>
         </Section>
 
         <Section className="py-0">
-          <h2 className="text-lg font-bold">Thesis</h2>
+          <h2 className="text-base font-bold">Thesis</h2>
           <Card key="pubs" className="p-0">
-            <CardContent className="p-2 text-xs text-foreground/80">
-              <ul className="m-0 pl-4">
+            <CardContent className="p-1 text-xs text-foreground/80">
+              <ul className="m-0 pl-0">
                 {RESUME_DATA.publications.map((pub, index) => (
                   <li key={index} className="mt-0.5">
                     {pub}
@@ -113,22 +114,22 @@ export default function CompactPage() {
         </Section>
 
         <Section className="py-0">
-          <h2 className="text-lg font-bold">Education</h2>
+          <h2 className="text-base font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
-              <Card key={education.school} className="mb-1">
-                <CardHeader className="p-2 pb-0">
+              <Card key={education.school} className="mb-0.5">
+                <CardHeader className="p-1 pb-0">
                   <div className="flex items-center justify-between gap-x-2 text-xs">
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-xs tabular-nums text-gray-500">
+                    <div className="text-xxs tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="p-2 pt-1 text-xs text-foreground/80">{education.degree}</CardContent>
-                <CardContent className="p-2 pt-0 text-xs">
+                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">{education.degree}</CardContent>
+                <CardContent className="p-1 pt-0 text-xs">
                   {education.description}
                 </CardContent>
               </Card>
@@ -137,11 +138,11 @@ export default function CompactPage() {
         </Section>
 
         <Section className="py-0">
-          <h2 className="text-lg font-bold">Work Experience</h2>
+          <h2 className="text-base font-bold">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
-              <Card key={work.company} className="mb-1">
-                <CardHeader className="p-2 pb-0">
+              <Card key={work.company} className="mb-0.5">
+                <CardHeader className="p-1 pb-0">
                   <div className="flex items-center justify-between gap-x-2 text-xs">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link} target="_blank" rel="noopener noreferrer">
@@ -152,7 +153,7 @@ export default function CompactPage() {
                         {work.badges.map((badge) => (
                           <Badge
                             variant="secondary"
-                            className="align-middle text-xs py-0 px-1 h-4"
+                            className="align-middle text-xs py-0 px-1 h-3"
                             key={badge}
                           >
                             {badge}
@@ -160,17 +161,17 @@ export default function CompactPage() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-xs tabular-nums text-gray-500">
+                    <div className="text-xxs tabular-nums text-gray-500">
                       {work.start} - {work?.end ?? "Present"}
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-xs font-semibold leading-none mt-1">
+                  <h4 className="font-mono text-xs font-semibold leading-none mt-0.5">
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="p-2 pt-1 text-xs text-foreground/80">
-                  <ul className="m-0 pl-4">
+                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">
+                  <ul className="m-0 pl-0">
                     {work.descriptions.map((description) => (
                       <li key={description} className="mt-0.5">
                         {description}
@@ -184,17 +185,17 @@ export default function CompactPage() {
         </Section>
 
         <Section className="py-0">
-          <h2 className="text-lg font-bold">Skills</h2>
+          <h2 className="text-base font-bold">Skills</h2>
           <div className="flex flex-wrap gap-0.5">
             {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill} className="text-xs py-0 px-1 h-4">{skill}</Badge>;
+              return <Badge key={skill} className="text-xs py-0 px-1">{skill}</Badge>;
             })}
           </div>
         </Section>
 
         <Section className="py-0">
-          <h2 className="text-lg font-bold">Projects & Awards</h2>
-          <div className="-mx-1 grid grid-cols-1 gap-1 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3">
+          <h2 className="text-base font-bold">Projects & Awards</h2>
+          <div className="-mx-0.5 grid grid-cols-1 gap-0.5 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
@@ -203,7 +204,7 @@ export default function CompactPage() {
                   description={project.description}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
-                  className="p-2"
+                  className="p-1"
                 />
               );
             })}
@@ -211,26 +212,26 @@ export default function CompactPage() {
         </Section>
 
         <Section className="py-0">
-          <h2 className="text-lg font-bold">Leadership</h2>
+          <h2 className="text-base font-bold">Leadership</h2>
           {RESUME_DATA.volunteering.map((volunteer) => {
             return (
-              <Card key={volunteer.organization} className="mb-1">
-                <CardHeader className="p-2 pb-0">
+              <Card key={volunteer.organization} className="mb-0.5">
+                <CardHeader className="p-1 pb-0">
                   <div className="flex items-center justify-between gap-x-2 text-xs">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       {volunteer.organization}
                     </h3>
-                    <div className="text-xs tabular-nums text-gray-500">
+                    <div className="text-xxs tabular-nums text-gray-500">
                       {volunteer.start} - {volunteer?.end ?? "Present"}
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-xs font-semibold leading-none mt-1">
+                  <h4 className="font-mono text-xs font-semibold leading-none mt-0.5">
                     {volunteer.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="p-2 pt-1 text-xs text-foreground/80">
-                  <ul className="m-0 pl-4">
+                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">
+                  <ul className="m-0 pl-0">
                     {volunteer.descriptions.map((description) => (
                       <li key={description} className="mt-0.5">
                         {description}

@@ -5,7 +5,15 @@ export const RESUME_DATA = {
   initials: "AT",
   location: "London, UK",
   about: "",
-  summary: "Detail-oriented MRes graduate in Artificial Intelligence & Machine Learning from Imperial College London, specializing in generative models and topological data analysis. Proficient in Python, R, and statistical modeling, with a strong foundation in mathematics and statistics.",
+  summary: (
+    <>
+      MRes graduate in Artificial Intelligence & Machine Learning from Imperial College London, specializing in generative models and topological data analysis. Proficient in Python, R, and statistical modeling, with a strong foundation in mathematics and statistics. The most up to date version of this CV is hosted at {" "}
+      <a href="https://ata-tuna.github.io/cv/" target="_blank" rel="noopener noreferrer">
+        ata-tuna.github.io/cv
+      </a>
+      .
+    </>
+  ),
   contact: {
     email: "ata.tuna.work@gmail.com",
     tel: "+44 739 253 0859",

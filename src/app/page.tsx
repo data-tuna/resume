@@ -128,7 +128,7 @@ export default function Page() {
                     <h3 className="font-semibold leading-none">
                       {education.school}
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-xs tabular-nums text-gray-500">
                       {education.start} - {education.end}
                     </div>
                   </div>
@@ -166,7 +166,7 @@ export default function Page() {
                         ))}
                       </span>
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-xs tabular-nums text-gray-500">
                       {work.start} - {work?.end ?? "Present"}
                     </div>
                   </div>
@@ -225,7 +225,7 @@ export default function Page() {
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       {volunteer.organization}
                     </h3>
-                    <div className="text-sm tabular-nums text-gray-500">
+                    <div className="text-xs tabular-nums text-gray-500">
                       {volunteer.start} - {volunteer?.end ?? "Present"}
                     </div>
                   </div>
