@@ -94,9 +94,9 @@ export const RESUME_DATA = {
         "Scikit-Learn",
         "PyTorch",
       ],
-      award: "UK Winner",
+      award: "",
       description:
-        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon.",
+        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I was responsible for scraping the UK law on web for fine tuning",
     },
     {
       title: "HYPED",
