@@ -96,7 +96,7 @@ export const RESUME_DATA = {
       ],
       award: "",
       description:
-        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I was responsible for scraping the UK law on web for fine tuning",
+        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I was responsible for scraping UK law web for fine tuning.",
     },
     {
       title: "HYPED",
@@ -107,7 +107,7 @@ export const RESUME_DATA = {
       ],
       award: "UK Winner",
       description:
-        "In my year, we were the top Hyperloop team in the UK, received awards from SpaceX, Virgin Hyperloop One, and Institution of Civil Engineers. Participated in the finals at SpaceX, California.",
+        "In my year, we were the top Hyperloop team in the UK and received awards from SpaceX, Virgin Hyperloop One, and the Institution of Civil Engineers. Participated in the finals at SpaceX, California.",
       link: {
         label: "hyped",
         href: "https://www.hyp-ed.com/",
