@@ -96,7 +96,7 @@ export const RESUME_DATA = {
       ],
       award: "",
       description:
-        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I was responsible for scraping UK law web for fine tuning.",
+        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I was responsible for web-scraping UK law for fine tuning.",
     },
     {
       title: "HYPED",
