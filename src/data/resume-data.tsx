@@ -7,14 +7,14 @@ export const RESUME_DATA = {
   about: "",
   summary: (
     <>
-      MRes graduate in Artificial Intelligence & Machine Learning from Imperial College London, specializing in generative models and topological data analysis. Proficient in Python, R, and statistical modeling, with a strong foundation in mathematics and statistics. The most up to date version of this CV is hosted at {" "}
+      MRes graduate in Artificial Intelligence & Machine Learning from Imperial College London, with a focus on generative models and topological data analysis. I’m especially interested in using advanced AI methods to understand and counter the spread of misinformation, with the goal of supporting democratic institutions and social cohesion. I bring a strong foundation in mathematics, programming, and statistical modelling, alongside practical experience in developing scalable, interpretable data systems for real-world applications. The most up-to-date version of this resume is available at: {" "}
       <a href="https://ata-tuna.github.io/cv/" target="_blank" rel="noopener noreferrer">
         ata-tuna.github.io/cv
       </a>
       .
     </>
   ),
-  summaryPlainText: "MRes graduate in Artificial Intelligence & Machine Learning from Imperial College London, specializing in generative models and topological data analysis. Proficient in Python, R, and statistical modeling, with a strong foundation in mathematics and statistics. The most up to date version of this CV is hosted at ata-tuna.github.io/cv.",
+  summaryPlainText: "MRes graduate in Artificial Intelligence & Machine Learning from Imperial College London, with a focus on generative models and topological data analysis. I’m especially interested in using advanced AI methods to understand and counter the spread of misinformation, with the goal of supporting democratic institutions and social cohesion. I bring a strong foundation in mathematics, programming, and statistical modelling, alongside practical experience in developing scalable, interpretable data systems for real-world applications. The most up-to-date version of this resume is available at ata-tuna.github.io/cv.",
   // ... other data
   contact: {
     email: "ata.tuna.work@gmail.com",
