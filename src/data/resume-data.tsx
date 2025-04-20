@@ -74,8 +74,11 @@ export const RESUME_DATA = {
     "Graph Neural Networks",  
     "Deep Learning",
     "Network Science",
+    "Measure Theory",
     "Stochastic Calculus",
-    "Linear Algebra",
+    "Bayesian Inference",
+    "Linear Algebra"
+
 
   ],
   projects: [
