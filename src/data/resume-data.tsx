@@ -7,14 +7,14 @@ export const RESUME_DATA = {
   about: "",
   summary: (
     <>
-      MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I have a particular interest in the intersection of information architecture, influence systems, and networked communication, and in how advanced modelling techniques can be used to understand and simulate complex real-world dynamics. The most up-to-date version of this resume is available at: {" "}
+      MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics. The most up-to-date version of this resume is available at: {" "}
       <a href="https://ata-tuna.github.io/cv/" target="_blank" rel="noopener noreferrer">
         ata-tuna.github.io/cv
       </a>
       .
     </>
   ),
-  summaryPlainText: "MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I have a particular interest in the intersection of information architecture, influence systems, and networked communication, and in how advanced modelling techniques can be used to understand and simulate complex real-world dynamics. The most up-to-date version of this resume is available at ata-tuna.github.io/cv.",
+  summaryPlainText: "MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics. The most up-to-date version of this resume is available at ata-tuna.github.io/cv.",
   // ... other data
   contact: {
     email: "ata.tuna.work@gmail.com",
@@ -125,8 +125,8 @@ export const RESUME_DATA = {
       start: "Sep 2021",
       end: "Aug 2022",
       descriptions: [
-      "⦿ Fostered a sense of community within the School of Mathematics by leading peer integration initiatives for new students.",
-      "⦿ Organised academic and social events aligned with MathClans' objectives, supporting student engagement and departmental cohesion.",
+      "⦿ Fostered a sense of community by leading peer integration initiatives for new students.",
+      "⦿ Organised academic and social events supporting student engagement and departmental cohesion.",
       ],
     },
     {
