@@ -96,9 +96,11 @@ export default function CompactPage() {
           <p className="text-pretty font-mono text-xs text-foreground/80">
             {RESUME_DATA.summary}
           </p>
+          {/*
           <p className="mt-1 text-[10px] italic text-gray-500">
             This section provides a brief academic and research overview.
           </p>
+          */}
         </Section>
 
         <Section className="py-0">
@@ -247,6 +249,18 @@ export default function CompactPage() {
           })}
         </Section>
       </section>
+      <p className="mt-4 text-center text-[10px] italic text-gray-500">
+        The most up-to-date version of this CV is available at{" "}
+        <a
+          href="https://ata-tuna.github.io/cv/"
+          className="underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ata-tuna.github.io/cv
+        </a>.
+      </p>
+
 
       <CommandMenu
         links={[
