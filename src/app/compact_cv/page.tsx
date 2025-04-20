@@ -96,6 +96,9 @@ export default function CompactPage() {
           <p className="text-pretty font-mono text-xs text-foreground/80">
             {RESUME_DATA.summary}
           </p>
+          <p className="mt-1 text-[10px] italic text-gray-500">
+            This section provides a brief academic and research overview.
+          </p>
         </Section>
 
         <Section className="py-0">
