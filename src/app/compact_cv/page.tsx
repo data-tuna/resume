@@ -258,7 +258,16 @@ export default function CompactPage() {
           rel="noopener noreferrer"
         >
           ata-tuna.github.io/cv
+        </a> or{" "} 
+          <a
+          href="https://ata-tuna.github.io/cv/compact_cv"
+          className="underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          ata-tuna.github.io/cv/compact_cv
         </a>.
+        
       </p>
 
 
