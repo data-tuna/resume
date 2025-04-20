@@ -7,14 +7,10 @@ export const RESUME_DATA = {
   about: "",
   summary: (
     <>
-      MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics. The most up-to-date version of this CV is available at {" "}
-      <a href="https://ata-tuna.github.io/cv/" target="_blank" rel="noopener noreferrer">
-        ata-tuna.github.io/cv
-      </a>
-      .
+      MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.
     </>
   ),
-  summaryPlainText: "MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics. The most up-to-date version of this CV is available at ata-tuna.github.io/cv.",
+  summaryPlainText: "MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.",
   // ... other data
   contact: {
     email: "ata.tuna.work@gmail.com",
