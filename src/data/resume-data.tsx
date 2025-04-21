@@ -34,7 +34,7 @@ export const RESUME_DATA = {
       degree: "Master of Research (MRes) in Artificial Intelligence & Machine Learning.",
       start: "Oct 2023",
       end: "Oct 2024",
-      description: "2.i",
+      description: "2:1",
     },
 
     {
@@ -42,7 +42,7 @@ export const RESUME_DATA = {
       degree: "Bachelor of Science (BSc) in Mathematics & Statistics",
       start: "Sep 2018",
       end: "May 2023",
-      description: "2.i, in second year I transferred from mechanical engineering.",
+      description: "2:1, in second year I transferred from mechanical engineering.",
     },
   ],
   work: [
