@@ -7,10 +7,10 @@ export const RESUME_DATA = {
   about: "",
   summary: (
     <>
-      MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.
+      MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modeling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.
     </>
   ),
-  summaryPlainText: "MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modelling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.",
+  summaryPlainText: "MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modeling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.",
   // ... other data
   contact: {
     email: "ata.tuna.work@gmail.com",
@@ -56,7 +56,7 @@ export const RESUME_DATA = {
       descriptions: [
         "⦿ Optimised and cleaned datasets collected on the field such as vessels and warehouses.",
         "⦿ Analysed and standardised structured financial contracts to improve consistency across internal audit workflows.",
-        // "⦿ Organized and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
+        // "⦿ Organised and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
       ],
     },
   ],
@@ -64,7 +64,7 @@ export const RESUME_DATA = {
     '⦿ A. Tuna, "A Deep Autoregressive Model for Dynamic Combinatorial Complexes," arXiv preprint, 2025. DOI: 10.48550/arXiv.2503.01999.',
   ],
   skills: [
-    "Statistical Modelling and Evaluation",
+    "Statistical Modeling and Evaluation",
     "Topological Data Analysis",
     "Generative Models",
     "Graph Neural Networks",  
