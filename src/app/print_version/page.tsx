@@ -1,5 +1,6 @@
 import { Card, CardHeader, CardContent } from "@/components/compact_ui/card";
-import { Badge } from "@/components/compact_ui/badge";
+// import { Badge } from "@/components/compact_ui/badge";
+import { Badge_2 } from "@/components/compact_ui/badge_2";
 import { CommandMenu } from "@/components/command-menu";
 import { Metadata } from "next";
 import { Section } from "@/components/compact_ui/section";
@@ -9,7 +10,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name} - Compact Version`,
+  title: `${RESUME_DATA.name}_cv`,
   description: RESUME_DATA.summaryPlainText,
   icons: {
     icon: "./favicon.ico",
@@ -142,43 +143,43 @@ export default function CompactPage() {
           })}
         </Section>
 
-        <Section className="py-0">
-          <h2 className="text-base font-bold">Work Experience</h2>
+        <Section>
+          <h2 className="text-base font-bold ">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
-              <Card key={work.company} className="mb-0.5">
-                <CardHeader className="p-1 pb-0">
-                  <div className="flex items-center justify-between gap-x-2 text-xs">
+              <Card key={work.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base ">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
                       <a className="hover:underline" href={work.link} target="_blank" rel="noopener noreferrer">
                         {work.company}
                       </a>
 
                       <span className="inline-flex gap-x-1 text-foreground/80">
-                        {work.badges.map((badge) => (
-                          <Badge
+                        {work.badges.map((badge_2) => (
+                          <Badge_2
                             variant="secondary"
-                            className="align-middle text-xs py-0 px-1 h-3"
-                            key={badge}
+                            className="align-middle text-xs"
+                            key={badge_2}
                           >
-                            {badge}
-                          </Badge>
+                            {badge_2}
+                          </Badge_2>
                         ))}
                       </span>
                     </h3>
-                    <div className="text-xxs tabular-nums text-gray-500">
+                    <div className="text-xs tabular-nums text-gray-500">
                       {work.start} - {work?.end ?? "Present"}
                     </div>
                   </div>
 
-                  <h4 className="font-mono text-xs font-semibold leading-none mt-0.5">
+                  <h4 className="font-mono text-sm font-semibold leading-none">
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">
-                  <ul className="m-0 pl-0">
+                <CardContent className="mt-2 text-xs text-foreground/80">
+                  <ul>
                     {work.descriptions.map((description) => (
-                      <li key={description} className="mt-0.5">
+                      <li key={description} className="mt-1">
                         {description}
                       </li>
                     ))}
@@ -189,18 +190,36 @@ export default function CompactPage() {
           })}
         </Section>
 
-        <Section className="py-0">
-          <h2 className="text-base font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-0.5">
+        <Section>
+          <h2 className="text-base font-bold mb-1">Skills</h2>
+          <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill} className="text-xs py-0 px-1">{skill}</Badge>;
+              return <Badge_2 key={skill}>{skill}</Badge_2>;
             })}
           </div>
         </Section>
 
-        <Section className="py-0">
+        <Section className="scroll-mb-16">
+          <h2 className="text-base font-bold mb-1">Projects & Awards</h2>
+          <div className="-mx-0 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
+            {RESUME_DATA.projects.map((project) => {
+              return (
+                <ProjectCard
+                  key={project.title}
+                  title={project.title}
+                  description={project.description}
+                  tags={project.techStack}
+                  link={"link" in project ? project.link.href : undefined}
+                  // className="p-2"
+                />
+              );
+            })}
+          </div>
+        </Section>
+
+        {/* <Section className="py-0">
           <h2 className="text-base font-bold">Projects & Awards</h2>
-          <div className="-mx-0.5 grid grid-cols-1 gap-0.5 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3">
+          <div className="-mx-0.5 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {
               return (
                 <ProjectCard
@@ -214,7 +233,7 @@ export default function CompactPage() {
               );
             })}
           </div>
-        </Section>
+        </Section> */}
 
         <Section className="py-0">
           <h2 className="text-base font-bold">Leadership</h2>
@@ -250,7 +269,7 @@ export default function CompactPage() {
         </Section>
       </section>
       <p className="mt-4 text-center text-[10px] italic text-gray-500">
-        The most up-to-date version of this CV is available at{" "}
+        Up-to-date version available at{" "}
         <a
           href="https://ata-tuna.github.io/cv/"
           className="underline"
@@ -260,13 +279,13 @@ export default function CompactPage() {
           ata-tuna.github.io/cv
         </a> or{" "} 
           <a
-          href="https://ata-tuna.github.io/cv/compact_cv"
+          href="https://ata-tuna.github.io/cv/print_cv"
           className="underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ata-tuna.github.io/cv/compact_cv
-        </a>.
+          ata-tuna.github.io/cv/print_version
+        </a>
         
       </p>
 

@@ -82,7 +82,7 @@ export const RESUME_DATA = {
       title: "DAMCC",
       techStack: ["PyTorch", "Scikit-Learn", "NetworkX", "Torch-Geometric", "Docker", "Git"],
       description:
-        "Developed the first deep learning architecture for generating dynamic combinatorial complexes, enabling structured prediction in high-dimensional social and informational networks—my MRes thesis.",
+        "Developed the first deep learning architecture for generating dynamic combinatorial complexes, enabling structured prediction in high-dimensional social and informational networks—my thesis.",
       link: {
         label: "DAMCC",
         href: "https://github.com/Ata-Tuna/DAMCC_1.2.git",
