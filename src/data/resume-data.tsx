@@ -136,7 +136,7 @@ export const RESUME_DATA = {
       descriptions: [
         //      "⦿ Programme Representative (Sep 2021–Aug 2022): Represented third-year Mathematics students, gathered academic feedback, and contributed to Student-Staff Liaison Committee.",
       //       "⦿ Academic Societies Representative (Oct 2019–May 2020): Acted as liaison between academic societies and the Students' Association, participating in governance processes including motions, proposals, and council decisions.",
-      "⦿ Gathered feedback and represented third-year Mathematics students in the Student-Staff Liaison Committee discussions.",
+      "⦿ Gathered feedback and represented third-year Mathematics students in the Student-Staff Liaison Committee.",
       "⦿ Liaised between academic societies and the Association, contributing to governance via motions and proposals.",
       ],
     },
