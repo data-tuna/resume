@@ -10,7 +10,7 @@ import { RESUME_DATA } from "@/data/resume-data";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
-  title: `${RESUME_DATA.name}_cv`,
+  title: `Ata_Tuna_Resume`,
   description: RESUME_DATA.summaryPlainText,
   icons: {
     icon: "./favicon.ico",
