@@ -271,20 +271,20 @@ export default function CompactPage() {
       <p className="mt-4 text-center text-[10px] italic text-gray-500">
         Up-to-date version available at{" "}
         <a
-          href="https://ata-tuna.github.io/cv/"
+          href="https://ata-tuna.github.io/resume/"
           className="underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ata-tuna.github.io/cv
+          ata-tuna.github.io/resume
         </a> or{" "} 
           <a
-          href="https://ata-tuna.github.io/cv/print_cv"
+          href="https://ata-tuna.github.io/resume/print_version"
           className="underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ata-tuna.github.io/cv/print_version
+          ata-tuna.github.io/resume/print_version
         </a>
         
       </p>
