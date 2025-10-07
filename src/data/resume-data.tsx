@@ -18,7 +18,7 @@ export const RESUME_DATA = {
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/Ata-Tuna",
+        url: "https://github.com/data-tuna",
         icon: GitHubIcon,
       },
       {
@@ -57,6 +57,19 @@ export const RESUME_DATA = {
         "⦿ Optimised and cleaned datasets collected on the field such as vessels and warehouses.",
         "⦿ Analysed and standardised structured financial contracts to improve consistency across internal audit workflows.",
         // "⦿ Organised and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
+      ],
+    },
+        {
+      company: "M&C Saatchi World Services",
+      link: "https://mcsaatchiworldservices.com/",
+      badges: ["Python", "Git", "FastAPI"],
+      title: "Data Intern",
+      start: "Jul 2025",
+      end: "Aug 2025",
+      descriptions: [
+        "⦿ Developed a time-series network visualisation tool using NetworkX, Pyvis, and FastAPI, effectively translating complex social media data into actionable insights.",
+        "⦿ Presented technical findings to non-technical stakeholders across multiple teams, generating significant project interest and demonstrating strong communication skills.",
+        "⦿ Recognised as the top intern for hire by my manager and the wider data science team.",
       ],
     },
   ],
