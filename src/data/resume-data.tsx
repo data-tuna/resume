@@ -63,7 +63,7 @@ export const RESUME_DATA = {
     {
       company: "REEF Technology",
       link: "https://reeftechnology.com/",
-      badges: ["Remote", "R", "Excel"],
+      badges: ["R", "Excel"],
       title: "Data Intern",
       start: "Jul 2023",
       end: "Aug 2023",
