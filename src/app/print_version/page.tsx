@@ -119,30 +119,6 @@ export default function CompactPage() {
           </Card>
         </Section>
 
-        <Section className="py-0">
-          <h2 className="text-base font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
-            return (
-              <Card key={education.school} className="mb-0.5">
-                <CardHeader className="p-1 pb-0">
-                  <div className="flex items-center justify-between gap-x-2 text-xs">
-                    <h3 className="font-semibold leading-none">
-                      {education.school}
-                    </h3>
-                    <div className="text-xxs tabular-nums text-gray-500">
-                      {education.start} - {education.end}
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">{education.degree}</CardContent>
-                <CardContent className="p-1 pt-0 text-xs">
-                  {education.description}
-                </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
-
         <Section>
           <h2 className="text-base font-bold ">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
@@ -184,6 +160,30 @@ export default function CompactPage() {
                       </li>
                     ))}
                   </ul>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+
+        <Section className="py-0">
+          <h2 className="text-base font-bold">Education</h2>
+          {RESUME_DATA.education.map((education) => {
+            return (
+              <Card key={education.school} className="mb-0.5">
+                <CardHeader className="p-1 pb-0">
+                  <div className="flex items-center justify-between gap-x-2 text-xs">
+                    <h3 className="font-semibold leading-none">
+                      {education.school}
+                    </h3>
+                    <div className="text-xxs tabular-nums text-gray-500">
+                      {education.start} - {education.end}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">{education.degree}</CardContent>
+                <CardContent className="p-1 pt-0 text-xs">
+                  {education.description}
                 </CardContent>
               </Card>
             );
@@ -271,20 +271,20 @@ export default function CompactPage() {
       <p className="mt-4 text-center text-[10px] italic text-gray-500">
         Up-to-date version available at{" "}
         <a
-          href="https://ata-tuna.github.io/resume/"
+          href="https://data-tuna.github.io/resume/"
           className="underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ata-tuna.github.io/resume
+          data-tuna.github.io/resume
         </a> or{" "} 
           <a
-          href="https://ata-tuna.github.io/resume/print_version"
+          href="https://data-tuna.github.io/resume/print_version"
           className="underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          ata-tuna.github.io/resume/print_version
+          data-tuna.github.io/resume/print_version
         </a>
         
       </p>

@@ -119,30 +119,6 @@ export default function Page() {
         </Section>
 
         <Section>
-          <h2 className="text-xl font-bold">Education</h2>
-          {RESUME_DATA.education.map((education) => {
-            return (
-              <Card key={education.school}>
-                <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-sm">
-                    <h3 className="font-semibold leading-none">
-                      {education.school}
-                    </h3>
-                    <div className="text-xs tabular-nums text-gray-500">
-                      {education.start} - {education.end}
-                    </div>
-                  </div>
-                </CardHeader>
-                <CardContent className="mt-2 text-foreground/80">{education.degree}</CardContent>
-                <CardContent className="mt-2 text-xs">
-                  {education.description}
-                </CardContent>
-              </Card>
-            );
-          })}
-        </Section>
-
-        <Section>
           <h2 className="text-xl font-bold ">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -183,6 +159,30 @@ export default function Page() {
                       </li>
                     ))}
                   </ul>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </Section>
+
+        <Section>
+          <h2 className="text-xl font-bold">Education</h2>
+          {RESUME_DATA.education.map((education) => {
+            return (
+              <Card key={education.school}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-sm">
+                    <h3 className="font-semibold leading-none">
+                      {education.school}
+                    </h3>
+                    <div className="text-xs tabular-nums text-gray-500">
+                      {education.start} - {education.end}
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 text-foreground/80">{education.degree}</CardContent>
+                <CardContent className="mt-2 text-xs">
+                  {education.description}
                 </CardContent>
               </Card>
             );

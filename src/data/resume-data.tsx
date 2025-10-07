@@ -42,10 +42,24 @@ export const RESUME_DATA = {
       degree: "Bachelor of Science (BSc) in Mathematics & Statistics",
       start: "Sep 2018",
       end: "May 2023",
-      description: "2:1, in second year I transferred from mechanical engineering.",
+      description: "2:1; transferred from Mechanical Engineering in second year.",
     },
   ],
   work: [
+
+      {
+      company: "M&C Saatchi World Services",
+      link: "https://mcsaatchiworldservices.com/",
+      badges: ["Python", "Git", "FastAPI"],
+      title: "Data Intern",
+      start: "Jul 2025",
+      end: "Aug 2025",
+      descriptions: [
+        "⦿ Developed a time-series network visualisation tool using NetworkX, Pyvis, and FastAPI, effectively translating complex social media data into actionable insights.",
+        "⦿ Presented technical findings to non-technical stakeholders across multiple teams, generating significant project interest and demonstrating strong communication skills.",
+        "⦿ Graded as the top intern for hire by my manager and the wider data science team.",
+      ],
+    },
     {
       company: "REEF Technology",
       link: "https://reeftechnology.com/",
@@ -59,19 +73,7 @@ export const RESUME_DATA = {
         // "⦿ Organised and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
       ],
     },
-        {
-      company: "M&C Saatchi World Services",
-      link: "https://mcsaatchiworldservices.com/",
-      badges: ["Python", "Git", "FastAPI"],
-      title: "Data Intern",
-      start: "Jul 2025",
-      end: "Aug 2025",
-      descriptions: [
-        "⦿ Developed a time-series network visualisation tool using NetworkX, Pyvis, and FastAPI, effectively translating complex social media data into actionable insights.",
-        "⦿ Presented technical findings to non-technical stakeholders across multiple teams, generating significant project interest and demonstrating strong communication skills.",
-        "⦿ Recognised as the top intern for hire by my manager and the wider data science team.",
-      ],
-    },
+
   ],
   publications: [
     '⦿ A. Tuna, "A Deep Autoregressive Model for Dynamic Combinatorial Complexes," arXiv preprint, 2025. DOI: 10.48550/arXiv.2503.01999.',
@@ -110,7 +112,7 @@ export const RESUME_DATA = {
       ],
       award: "",
       description:
-        "LLM based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I led custom web-scraping and data preparation pipeline for model fine-tuning.",
+        "LLM-based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I led a custom web-scraping and data preparation pipeline for model fine-tuning.",
     },
     {
       title: "HYPED",
