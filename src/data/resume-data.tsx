@@ -7,8 +7,8 @@ export const RESUME_DATA = {
   about: "",
   summary: (
     <>
-      MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modeling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.
-    </>
+MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning and applications to information architecture, influence systems, and complex network dynamics. Currently seeking ML engineering and data science roles.    
+</>
   ),
   summaryPlainText: "MRes graduate in Artificial Intelligence and Machine Learning from Imperial College London, with research focused on generative topological deep learning. My academic background integrates a strong foundation in mathematics and statistical modeling with applied machine learning. I’m particularly interested in how advanced modeling can be used to analyse information architecture, influence systems, and complex real-world dynamics.",
   // ... other data
@@ -31,7 +31,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "Imperial College London",
-      degree: "Master of Research (MRes) in Artificial Intelligence & Machine Learning.",
+      degree: "Master of Research (MRes) in Artificial Intelligence & Machine Learning",
       start: "Oct 2023",
       end: "Oct 2024",
       description: "2:1",
@@ -50,14 +50,14 @@ export const RESUME_DATA = {
       {
       company: "M&C Saatchi World Services",
       link: "https://mcsaatchiworldservices.com/",
-      badges: ["Python", "Git", "FastAPI"],
+      badges: ["Python", "FastAPI", "NetworkX", "Pyvis", "Typescript", "Git"],
       title: "Data Intern",
       start: "Jul 2025",
       end: "Aug 2025",
       descriptions: [
-        "⦿ Developed a time-series network visualisation tool using NetworkX, Pyvis, and FastAPI, effectively translating complex social media data into actionable insights.",
-        "⦿ Presented technical findings to non-technical stakeholders across multiple teams, generating significant project interest and demonstrating strong communication skills.",
-        "⦿ Graded as the top intern for hire by my manager and the wider data science team.",
+      "⦿ Developed a time-series network visualization and prediction tool using NetworkX, Pyvis, FastAPI, and the state-of-the-art DAMNETS model, enabling stakeholders to identify emerging influence patterns and forecast network evolution across social media data.",
+      "⦿ Presented findings to non-technical stakeholders across multiple teams, driving adoption of network analysis for client account strategy.",
+      "⦿ Recognized as top-performing intern by management and data science team."
       ],
     },
     {
@@ -68,7 +68,7 @@ export const RESUME_DATA = {
       start: "Jul 2023",
       end: "Aug 2023",
       descriptions: [
-        "⦿ Optimised and cleaned datasets collected on the field such as vessels and warehouses.",
+        "⦿ Processed and cleaned 1000+ records from vessel and warehouse operations, standardising data quality for downstream analysis.",
         "⦿ Analysed and standardised structured financial contracts to improve consistency across internal audit workflows.",
         // "⦿ Organised and facilitated brainstorming sessions and technical workshops with software engineers to foster innovation and share the latest advancements in Generative AI.",
       ],
@@ -97,7 +97,7 @@ export const RESUME_DATA = {
       title: "DAMCC",
       techStack: ["PyTorch", "Scikit-Learn", "NetworkX", "Torch-Geometric", "Docker", "Git"],
       description:
-        "Developed the first deep learning architecture for generating dynamic combinatorial complexes, enabling structured prediction in high-dimensional social and informational networks—my thesis.",
+        "Developed the first deep learning architecture for generating dynamic combinatorial complexes, enabling structured prediction in high-dimensional social and informational networks.",
       link: {
         label: "DAMCC",
         href: "https://github.com/Ata-Tuna/DAMCC_1.2.git",
@@ -123,7 +123,7 @@ export const RESUME_DATA = {
       ],
       award: "UK Winner",
       description:
-        "Top Hyperloop team in the UK and received awards from SpaceX, Virgin Hyperloop One, and the Institution of Civil Engineers. Participated in the finals at SpaceX, California.",
+        "Served as Stability Engineer for the UK's top Hyperloop team and received awards from SpaceX, Virgin Hyperloop One, and the Institution of Civil Engineers. Participated in the finals at SpaceX, California.",
       link: {
         label: "hyped",
         href: "https://www.hyp-ed.com/",
