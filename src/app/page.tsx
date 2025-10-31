@@ -189,14 +189,6 @@ export default function Page() {
           })}
         </Section>
 
-        <Section>
-          <h2 className="text-l font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge key={skill}>{skill}</Badge>;
-            })}
-          </div>
-        </Section>
 
         <Section className="scroll-mb-16">
           <h2 className="text-l font-bold">Projects & Awards</h2>
@@ -211,6 +203,24 @@ export default function Page() {
                   link={"link" in project ? project.link.href : undefined}
                 />
               );
+            })}
+          </div>
+        </Section>
+
+        <Section>
+          <h2 className="text-l font-bold">Technical Skills</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills.map((skill) => {
+              return <Badge key={skill}>{skill}</Badge>;
+            })}
+          </div>
+        </Section>
+
+        <Section className="py-0">
+          <h2 className="text-l font-bold">Languages</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.languages?.map((lang) => {
+              return <Badge key={lang}>{lang}</Badge>;
             })}
           </div>
         </Section>

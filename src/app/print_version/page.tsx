@@ -190,14 +190,6 @@ export default function CompactPage() {
           })}
         </Section>
 
-        <Section>
-          <h2 className="text-base font-bold mb-1">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return <Badge_2 key={skill}>{skill}</Badge_2>;
-            })}
-          </div>
-        </Section>
 
         <Section className="scroll-mb-16">
           <h2 className="text-base font-bold mb-1">Projects & Awards</h2>
@@ -216,7 +208,24 @@ export default function CompactPage() {
             })}
           </div>
         </Section>
+        
+        <Section>
+          <h2 className="text-base font-bold mb-1">Technical Skills</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.skills.map((skill) => {
+              return <Badge_2 key={skill}>{skill}</Badge_2>;
+            })}
+          </div>
+        </Section>
 
+        <Section className="py-0">
+          <h2 className="text-base font-bold mb-1">Languages</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.languages?.map((lang) => {
+              return <Badge_2 key={lang}>{lang}</Badge_2>;
+            })}
+          </div>
+        </Section>
         {/* <Section className="py-0">
           <h2 className="text-base font-bold">Projects & Awards</h2>
           <div className="-mx-0.5 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3">

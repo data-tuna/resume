@@ -92,6 +92,12 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
 
 
   ],
+  languages: [
+    "English (Fluent)",
+    "Turkish (Native)",
+    "German (B2)",
+    "French (A1)",
+  ],
   projects: [
     {
       title: "DAMCC",
