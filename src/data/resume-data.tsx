@@ -50,7 +50,7 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
       {
       company: "M&C Saatchi World Services",
       link: "https://mcsaatchiworldservices.com/",
-      badges: ["Python", "FastAPI", "NetworkX", "Pyvis", "Typescript", "Git"],
+      badges: ["Python", "FastAPI", "NetworkX", "Pyvis", "TypeScript", "Git"],
       title: "Data Intern",
       start: "Jul 2025",
       end: "Aug 2025",
