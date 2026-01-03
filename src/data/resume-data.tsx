@@ -99,6 +99,21 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
     "French (A1)",
   ],
   projects: [
+   
+    {
+      title: "Pabu",
+      techStack: [
+        "LangChain",
+        "LangGraph",
+      ],
+      award: "",
+      description:
+        "Chrome extension that won 3rd place at the AI Engine Hackathon. Joined the founder team to enhance the real-time content analysis system that intelligently blocks distracting websites.",
+      link: {
+        label: "Pabu",
+        href: "https://pabu.app/",
+      },
+    },
     {
       title: "DAMCC",
       techStack: ["PyTorch", "Scikit-Learn", "NetworkX", "Torch-Geometric", "Docker", "Git"],
@@ -109,16 +124,7 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
         href: "https://github.com/Ata-Tuna/DAMCC_1.2.git",
       },
     },
-    {
-      title: "Pabu",
-      techStack: [
-        "LangChain",
-        "LangGraph",
-      ],
-      award: "",
-      description:
-        " AI-powered Chrome extension that won 3rd place for \"Best Use of ACI.dev Unified MCP\" at the AI Engine Hackathon. Joined the founder team to enhance the real-time content analysis system that intelligently blocks distracting websites while allowing task-relevant resources.",
-    },
+
     {
       title: "HYPED",
       techStack: [
