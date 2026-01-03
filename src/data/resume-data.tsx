@@ -50,7 +50,7 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
       {
       company: "M&C Saatchi World Services",
       link: "https://mcsaatchiworldservices.com/",
-      badges: ["Python", "FastAPI", "NetworkX", "Pyvis", "TypeScript", "Git"],
+      badges: ["Python", "TypeScript", "FastAPI", "NetworkX", "Pyvis", "Git"],
       title: "Data Intern",
       start: "Jul 2025",
       end: "Aug 2025",
@@ -110,15 +110,14 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
       },
     },
     {
-      title: "TaxOff",
+      title: "Pabu",
       techStack: [
-        "Web Scraping",
-        "Scikit-Learn",
-        "PyTorch",
+        "LangChain",
+        "LangGraph",
       ],
       award: "",
       description:
-        "LLM-based tax management system developed at the finals of Imperial's Business School AI Ventures Hackathon. I led a custom web-scraping and data preparation pipeline for model fine-tuning.",
+        " AI-powered Chrome extension that won 3rd place for \"Best Use of ACI.dev Unified MCP\" at the AI Engine Hackathon. Joined the founder team to enhance the real-time content analysis system that intelligently blocks distracting websites while allowing task-relevant resources.",
     },
     {
       title: "HYPED",
