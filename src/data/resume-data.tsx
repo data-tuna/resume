@@ -55,7 +55,7 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
       start: "Jul 2025",
       end: "Aug 2025",
       descriptions: [
-      "⦿ Developed a time-series network visualization and prediction tool using NetworkX, Pyvis, FastAPI, and the state-of-the-art DAMNETS model, enabling stakeholders to identify emerging influence patterns and forecast network evolution across social media data.",
+      "⦿ Developed a time-series network visualization and prediction tool using state-of-the-art DAMNETS model, enabling stakeholders to identify emerging influence patterns and forecast network evolution across social media data.",
       "⦿ Presented findings to non-technical stakeholders across multiple teams, driving adoption of network analysis for client account strategy.",
       "⦿ Recognized as top-performing intern by management and data science team."
       ],
