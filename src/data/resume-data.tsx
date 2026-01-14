@@ -105,10 +105,13 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
       techStack: [
         "LangChain",
         "LangGraph",
+        "React",
+        "FastAPI",
+        "Node.js",
       ],
-      award: "",
+      award: "3rd place at the AI Engine Hackathon",
       description:
-        "Chrome extension that won 3rd place at the AI Engine Hackathon. Joined the founder team to enhance the real-time content analysis system that intelligently blocks distracting websites.",
+        "Won 3rd place at the AI Engine Hackathon. Joined the founder team to enhance the real-time content analysis system that intelligently blocks distracting websites.",
       link: {
         label: "Pabu",
         href: "https://pabu.app/",
