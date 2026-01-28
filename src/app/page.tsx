@@ -208,7 +208,7 @@ export default function Page() {
         </Section>
 
         <Section>
-          <h2 className="text-l font-bold">Technical Skills</h2>
+          <h2 className="text-l font-bold">ML Research & Modelling Skills</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.skills.map((skill) => {
               return <Badge key={skill}>{skill}</Badge>;
