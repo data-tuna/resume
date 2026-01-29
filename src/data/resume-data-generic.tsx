@@ -53,8 +53,8 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
       link: "https://mcsaatchiworldservices.com/",
       badges: ["Python", "TypeScript", "FastAPI", "NetworkX", "Pyvis", "Git"],
       title: "Data Intern",
-      start: "Jul 2026",
-      end: "Aug 2026",
+      start: "Jul 2025",
+      end: "Aug 2025",
       descriptions: [
       "⦿ Developed a time-series network visualization and prediction tool using state-of-the-art DAMNETS model, enabling stakeholders to identify emerging influence patterns and forecast network evolution across social media data.",
       "⦿ Presented findings to non-technical stakeholders across multiple teams, driving adoption of network analysis for client account strategy.",
