@@ -127,7 +127,7 @@ MRes graduate in Artificial Intelligence and Machine Learning from Imperial Coll
         "FastAPI",
         "Node.js",
       ],
-      award: "3rd place at the AI Engine Hackathon",
+      award: "3rd place",
       description:
         // "Won 3rd place at the AI Engine Hackathon. Joined the founder team to enhance the real-time content analysis system that intelligently blocks distracting websites.",
       "Co-designed and implemented a Chrome extension for AI-driven content filtering, selectively blocking distracting online material while allowing context-relevant resources. The project was developed collaboratively during the AI Engine Hackathon and awarded 3rd place for Best Use of ACI.dev Unified MCP.",

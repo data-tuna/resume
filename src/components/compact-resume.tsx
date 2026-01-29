@@ -166,6 +166,7 @@ export function CompactResume({ data }: CompactResumeProps) {
                   description={project.description}
                   tags={project.techStack}
                   link={"link" in project ? project.link.href : undefined}
+                  award={"award" in project ? project.award : undefined}
                 />
               );
             })}

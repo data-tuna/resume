@@ -130,7 +130,7 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
         "FastAPI",
         "Node.js",
       ],
-      award: "3rd place at the AI Engine Hackathon",
+      award: "3rd place",
       description:
         // "Won 3rd place at the AI Engine Hackathon. Joined the founder team to enhance the real-time content analysis system that intelligently blocks distracting websites.",
       "Co-designed and implemented a Chrome extension for AI-driven content filtering, selectively blocking distracting online material while allowing context-relevant resources. The project was developed collaboratively during the AI Engine Hackathon and awarded 3rd place for Best Use of ACI.dev Unified MCP.",
@@ -150,7 +150,7 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
       description:
         // "Served as Stability Engineer for the UK's top Hyperloop team and received awards from SpaceX, Virgin Hyperloop One, and the Institution of Civil Engineers. Participated in the finals at SpaceX, California.",
       
-      "Designed and oversaw manufacture of the monorail–pod structural interface, enabling stable operation at speeds up to 311 km/h, for the UK’s leading Hyperloop team; the project was recognised by SpaceX, Virgin Hyperloop One, and the Institution of Civil Engineers, and reached SpaceX finals in Los Angeles.",
+      "Designed and oversaw manufacture of the monorail–pod structural interface, enabling stable operation at speeds up to 311 km/h, for the UK’s leading Hyperloop team; Uthe project was recognised by SpaceX, Virgin Hyperloop One, and the Institution of Civil Engineers, and reached SpaceX finals in Los Angeles.",
 
 link: {
         label: "hyped",
