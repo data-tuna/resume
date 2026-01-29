@@ -5,7 +5,7 @@ import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
 import { GlobeIcon, MailIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { RESUME_DATA } from "@/data/resume-data";
+import { RESUME_DATA } from "@/data/resume-data-generic";
 import { ProjectCard } from "@/components/project-card";
 
 export const metadata: Metadata = {
@@ -104,21 +104,6 @@ export default function Page() {
         </Section>
 
         <Section>
-          <h2 className="text-xl font-bold">Thesis</h2>
-          <Card key="pubs">
-            <CardContent className="mt-2 text-s text-foreground/80">
-              <ul>
-                {RESUME_DATA.publications.map((pub, index) => (
-                  <li key={index} className="mt-1">
-                    {pub}
-                  </li>
-                ))}
-              </ul>
-            </CardContent>
-          </Card>
-        </Section>
-
-        <Section>
           <h2 className="text-xl font-bold ">Work Experience</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -166,6 +151,21 @@ export default function Page() {
         </Section>
 
         <Section>
+          <h2 className="text-xl font-bold">Thesis</h2>
+          <Card key="pubs">
+            <CardContent className="mt-2 text-s text-foreground/80">
+              <ul>
+                {RESUME_DATA.publications.map((pub, index) => (
+                  <li key={index} className="mt-1">
+                    {pub}
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+        </Section>
+
+        <Section>
           <h2 className="text-xl font-bold">Education</h2>
           {RESUME_DATA.education.map((education) => {
             return (
@@ -206,7 +206,7 @@ export default function Page() {
             })}
           </div>
         </Section>
-
+        
         <Section>
           <h2 className="text-l font-bold">ML Research & Modelling Skills</h2>
           <div className="flex flex-wrap gap-1">

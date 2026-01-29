@@ -2,7 +2,7 @@ import { RESUME_DATA as MLR_DATA } from "./resume-data-mlr";
 import { RESUME_DATA as MLE_DATA } from "./resume-data-mle";
 import { RESUME_DATA as MLV_DATA } from "./resume-data-mlv";
 
-export const RESUME_DATA = MLR_DATA;
+export const RESUME_DATA = MLE_DATA;
 
 export { MLR_DATA, MLE_DATA, MLV_DATA };
 

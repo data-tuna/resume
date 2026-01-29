@@ -33,16 +33,16 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
     {
       school: "Imperial College London",
       degree: "Master of Research (MRes) in Artificial Intelligence & Machine Learning",
-      start: "Oct 2023",
-      end: "Oct 2024",
+      start: "Oct 2024",
+      end: "Oct 2025",
       description: "2:1",
     },
 
     {
       school: "University of Edinburgh",
       degree: "Bachelor of Science (BSc) in Mathematics & Statistics",
-      start: "Sep 2018",
-      end: "May 2023",
+      start: "Sep 2019",
+      end: "May 2024",
       description: "2:1; transferred from Mechanical Engineering in second year.",
     },
   ],
@@ -53,8 +53,8 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
       link: "https://mcsaatchiworldservices.com/",
       badges: ["Python", "TypeScript", "FastAPI", "NetworkX", "Pyvis", "Git"],
       title: "Data Intern",
-      start: "Jul 2025",
-      end: "Aug 2025",
+      start: "Jul 2026",
+      end: "Aug 2026",
       descriptions: [
       "⦿ Developed a time-series network visualization and prediction tool using state-of-the-art DAMNETS model, enabling stakeholders to identify emerging influence patterns and forecast network evolution across social media data.",
       "⦿ Presented findings to non-technical stakeholders across multiple teams, driving adoption of network analysis for client account strategy.",
@@ -66,8 +66,8 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
     //   link: "https://reeftechnology.com/",
     //   badges: ["R", "Excel"],
     //   title: "Data Intern",
-    //   start: "Jul 2023",
-    //   end: "Aug 2023",
+    //   start: "Jul 2024",
+    //   end: "Aug 2024",
     //   descriptions: [
     //     "⦿ Processed and cleaned 1000+ records from vessel and warehouse operations, standardising data quality for downstream analysis.",
     //     "⦿ Analysed and standardised structured financial contracts to improve consistency across internal audit workflows.",
@@ -77,7 +77,7 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
 
   ],
   publications: [
-    '⦿ A. Tuna, "A Deep Autoregressive Model for Dynamic Combinatorial Complexes," arXiv preprint, 2025. DOI: 10.48550/arXiv.2503.01999.',
+    '⦿ A. Tuna, "A Deep Autoregressive Model for Dynamic Combinatorial Complexes," arXiv preprint, 2026. DOI: 10.48550/arXiv.2503.01999.',
   ],
   skills: [
     "Python",
@@ -113,7 +113,7 @@ Machine Learning Engineer with a strong mathematical background, experienced in 
         "Torch-Geometric"
       ],
       description:
-"Developed a novel autoregressive generative model for structured, high-dimensional graph and combinatorial data (arXiv:2503.01999). Implemented the model in PyTorch with custom loss functions, evaluation pipelines, and memory-aware handling of sparse, high-dimensional structures.",
+      "Developed a novel autoregressive generative model for structured, high-dimensional graph and combinatorial data (arXiv:2503.01999). Implemented the model in PyTorch with custom loss functions, evaluation pipelines, and memory-aware handling of sparse, high-dimensional structures.",
       // "Developed a novel deep autoregressive model for dynamic combinatorial complexes, enabling structured prediction in high-dimensional networks (arXiv:2503.01999).",
       link: {
         label: "arXiv:2503.01999",
@@ -164,8 +164,8 @@ link: {
     {
       title: "MathClans Leader",
       organization: "University of Edinburgh, School of Mathematics",
-      start: "Sep 2021",
-      end: "Aug 2022",
+      start: "Sep 2022",
+      end: "Aug 2023",
       descriptions: [
       "⦿ Fostered a sense of community by leading peer integration initiatives for new students.",
       "⦿ Organised academic and social events supporting student engagement and departmental cohesion.",
@@ -174,11 +174,9 @@ link: {
     {
       title: "Programme Representative, Academic Societies Representative",
       organization: "Edinburgh University Students' Association",
-      start: "Oct 2019",
-      end: "Aug 2022",
+      start: "Oct 2020",
+      end: "Aug 2023",
       descriptions: [
-        //      "⦿ Programme Representative (Sep 2021–Aug 2022): Represented third-year Mathematics students, gathered academic feedback, and contributed to Student-Staff Liaison Committee.",
-      //       "⦿ Academic Societies Representative (Oct 2019–May 2020): Acted as liaison between academic societies and the Students' Association, participating in governance processes including motions, proposals, and council decisions.",
       "⦿ Gathered feedback and represented third-year Mathematics students in the Student-Staff Liaison Committee.",
       "⦿ Liaised between academic societies and the Association, contributing to governance via motions and proposals.",
       ],
