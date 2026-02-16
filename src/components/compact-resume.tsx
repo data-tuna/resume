@@ -151,20 +151,45 @@ export function CompactResume({ data }: CompactResumeProps) {
 
         <Section className="scroll-mb-16">
           <h2 className="text-base font-bold mb-1">Projects & Awards</h2>
-          <div className="-mx-0 grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2">
-            {data.projects.map((project) => {
-              return (
-                <ProjectCard
-                  key={project.title}
-                  title={project.title}
-                  description={project.description}
-                  tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                  award={"award" in project ? project.award : undefined}
-                />
-              );
-            })}
-          </div>
+          {data.projects.map((project) => {
+            return (
+              <Card key={project.title} className="mb-0.5">
+                <CardHeader className="p-1 pb-0">
+                  <div className="flex items-center justify-between gap-x-2 text-xs">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      {project.link ? (
+                        <a href={project.link.href} target="_blank" className="hover:underline">
+                          {project.title}
+                        </a>
+                      ) : (
+                        project.title
+                      )}
+                      
+                      <span className="inline-flex gap-x-1 text-foreground/80">
+                        {project.techStack.map((tag) => (
+                          <Badge_2
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={tag}
+                          >
+                            {tag}
+                          </Badge_2>
+                        ))}
+                      </span>
+                    </h3>
+                    {"award" in project && project.award && (
+                      <div className="text-xs font-mono font-semibold text-gray-500">
+                        {project.award}
+                      </div>
+                    )}
+                  </div>
+                </CardHeader>
+                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">
+                  {project.description}
+                </CardContent>
+              </Card>
+            );
+          })}
         </Section>
         
         <Section>

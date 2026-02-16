@@ -51,7 +51,7 @@ Data Scientist / Machine Learning Engineer with a strong mathematical background
       {
       company: "M&C Saatchi World Services",
       link: "https://mcsaatchiworldservices.com/",
-      badges: ["Python", "TypeScript", "FastAPI", "NetworkX", "Pyvis", "Git"],
+      badges: ["Python", "TypeScript", "FastAPI", "NetworkX", "Pyvis"],
       title: "Data Intern",
       start: "Jul 2025",
       end: "Aug 2025",

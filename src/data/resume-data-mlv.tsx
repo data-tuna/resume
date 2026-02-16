@@ -51,7 +51,7 @@ Machine Learning Engineer with a strong mathematical background, specialising in
       {
       company: "M&C Saatchi World Services",
       link: "https://mcsaatchiworldservices.com/",
-      badges: ["Python", "TypeScript", "FastAPI", "NetworkX", "Pyvis", "Git"],
+      badges: ["Python", "TypeScript", "FastAPI", "NetworkX", "Pyvis"],
       title: "Data Intern",
       start: "Jul 2025",
       end: "Aug 2025",
@@ -120,6 +120,18 @@ Machine Learning Engineer with a strong mathematical background, specialising in
 link: {
         label: "arXiv:2503.01999",
         href: "https://arxiv.org/abs/2503.01999",
+      },
+    },
+    {
+      title: "TerraViz",
+      techStack: [
+        "Python", "FastAPI", "React", "TypeScript", "Vite", "PostgreSQL", "Docker Compose", "HeyAPI",
+      ],
+      description:
+      "Developed during IC Hack ’26 (Hudson River Trading “Best Use of Data for Predictions and Decision-Making” challenge), building a modular platform that integrates Sentinel-2, climate, and soil datasets to produce region-level environmental risk insights. Implemented a research-grade carbon sequestration prediction pipeline based on Cook-Patton et al., Nature (2020), enabling dynamic region selection and GeoTIFF-based summary outputs for decision support.",
+      link: {
+        label: "TerraViz",
+        href: "https://devpost.com/software/terravysers?ref_content=my-projects-tab&ref_feature=my_projects",
       },
     },
     {
