@@ -12,23 +12,6 @@ interface CompactResumeProps {
 }
 
 export function CompactResume({ data }: CompactResumeProps) {
-  const ThesisSection = () => (
-    <Section className="py-0">
-      <h2 className="text-base font-bold">Thesis</h2>
-      <Card key="pubs" className="p-0">
-        <CardContent className="p-1 text-xs text-foreground/80">
-          <ul className="m-0 pl-0">
-            {data.publications.map((pub, index) => (
-              <li key={index} className="mt-0.5">
-                {pub}
-              </li>
-            ))}
-          </ul>
-        </CardContent>
-      </Card>
-    </Section>
-  );
-
   return (
     <main className="container relative mx-auto overflow-auto p-1 md:p-4 print:p-2 small-font">
       <section className="mx-auto w-full max-w-2xl space-y-2 bg-white print:space-y-1">
@@ -83,52 +66,63 @@ export function CompactResume({ data }: CompactResumeProps) {
           <h2 className="text-base font-bold ">Work Experience</h2>
           {data.work.map((work) => {
             return (
-              <div key={work.company}>
-                <Card>
-                  <CardHeader>
-                    <div className="flex items-center justify-between gap-x-2 text-base p-1">
-                      <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
-                        <a className="hover:underline" href={work.link} target="_blank" rel="noopener noreferrer">
-                          {work.company}
-                        </a>
+              <Card key={work.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base p-1">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none">
+                      <a className="hover:underline" href={work.link} target="_blank" rel="noopener noreferrer">
+                        {work.company}
+                      </a>
 
-                        <span className="inline-flex gap-x-1 text-foreground/80">
-                          {work.badges.map((badge_2) => (
-                            <Badge_2
-                              variant="secondary"
-                              className="align-middle text-xs"
-                              key={badge_2}
-                            >
-                              {badge_2}
-                            </Badge_2>
-                          ))}
-                        </span>
-                      </h3>
-                      <div className="text-xs tabular-nums text-gray-500">
-                        {work.start} - {work?.end ?? "Present"}
-                      </div>
+                      <span className="inline-flex gap-x-1 text-foreground/80">
+                        {work.badges.map((badge_2) => (
+                          <Badge_2
+                            variant="secondary"
+                            className="align-middle text-xs"
+                            key={badge_2}
+                          >
+                            {badge_2}
+                          </Badge_2>
+                        ))}
+                      </span>
+                    </h3>
+                    <div className="text-xs tabular-nums text-gray-500">
+                      {work.start} - {work?.end ?? "Present"}
                     </div>
+                  </div>
 
-                    <h4 className="font-mono text-sm font-semibold leading-none p-1">
-                      {work.title}
-                    </h4>
-                  </CardHeader>
-                  <CardContent className="mt-2 text-xs text-foreground/80">
-                    <ul>
-                      {work.descriptions.map((description) => (
-                        <li key={description} className="mt-1 p-1">
-                          {description}
-                        </li>
-                      ))}
-                    </ul>
-                  </CardContent>
-                </Card>
-              </div>
+                  <h4 className="font-mono text-sm font-semibold leading-none p-1">
+                    {work.title}
+                  </h4>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs text-foreground/80">
+                  <ul>
+                    {work.descriptions.map((description) => (
+                      <li key={description} className="mt-1 p-1">
+                        {description}
+                      </li>
+                    ))}
+                  </ul>
+                </CardContent>
+              </Card>
             );
           })}
         </Section>
 
-        <ThesisSection />
+        <Section className="py-0">
+          <h2 className="text-base font-bold">Thesis</h2>
+          <Card key="pubs" className="p-0">
+            <CardContent className="p-1 text-xs text-foreground/80">
+              <ul className="m-0 pl-0">
+                {data.publications.map((pub, index) => (
+                  <li key={index} className="mt-0.5">
+                    {pub}
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+        </Section>
 
         <Section className="py-0">
           <h2 className="text-base font-bold">Education</h2>
@@ -191,7 +185,7 @@ export function CompactResume({ data }: CompactResumeProps) {
           </div>
         </Section>
 
-        <Section className="py-0">
+        {/* <Section className="py-0">
           <h2 className="text-base font-bold">Leadership</h2>
           {data.volunteering.map((volunteer) => {
             return (
@@ -222,7 +216,7 @@ export function CompactResume({ data }: CompactResumeProps) {
               </Card>
             );
           })}
-        </Section>
+        </Section> */}
       </section>
 
       <CommandMenu

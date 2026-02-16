@@ -40,11 +40,5 @@ export default function RolePage({ params }: Props) {
     notFound();
   }
 
-  // // Configuration for specific roles
-  // const hideSummary = role === 'mle';
-  // const thesisAfterWork = role === 'mle';
-
-  return <CompactResume 
-    data={data} 
-  />;
+  return <CompactResume data={data} />;
 }
