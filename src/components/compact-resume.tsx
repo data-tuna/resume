@@ -17,47 +17,49 @@ export function CompactResume({ data }: CompactResumeProps) {
       <section className="mx-auto w-full max-w-2xl space-y-2 bg-white print:space-y-1">
         <div className="flex items-center justify-between mb-2">
           <div className="flex-1 space-y-0.5">
-            <h1 className="text-lg font-bold">{data.name}</h1>
+            <div className="flex items-center justify-between gap-x-4">
+              <h1 className="text-lg font-bold">{data.name}</h1>
+              <div className="flex flex-wrap gap-x-3 text-xs text-foreground/80 justify-end">
+                <a
+                  className="inline-flex items-center gap-x-1 hover:underline"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <GlobeIcon className="size-3" />
+                  {data.location}
+                </a>
+                
+                {data.contact.email && (
+                  <a href={`mailto:${data.contact.email}`} className="inline-flex items-center gap-x-1 hover:underline">
+                    <MailIcon className="size-3" />
+                    {data.contact.email}
+                  </a>
+                )}
+                
+                {data.contact.tel && (
+                  <a href={`tel:${data.contact.tel}`} className="inline-flex items-center gap-x-1 hover:underline">
+                    <PhoneIcon className="size-3" />
+                    {data.contact.tel}
+                  </a>
+                )}
+
+                {data.contact.social.map((social) => (
+                  <a key={social.name} href={social.url} className="inline-flex items-center gap-x-1 hover:underline">
+                    <social.icon className="size-3" />
+                    {social.name}
+                  </a>
+                ))}
+              </div>
+            </div>
             <p className="max-w-md text-pretty font-mono text-xs text-foreground/80">
               {data.about}
             </p>
-            <div className="flex flex-wrap gap-x-3 text-xs text-foreground/80">
-              <a
-                className="inline-flex items-center gap-x-1 hover:underline"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <GlobeIcon className="size-3" />
-                {data.location}
-              </a>
-              
-              {data.contact.email && (
-                <a href={`mailto:${data.contact.email}`} className="inline-flex items-center gap-x-1 hover:underline">
-                  <MailIcon className="size-3" />
-                  {data.contact.email}
-                </a>
-              )}
-              
-              {data.contact.tel && (
-                <a href={`tel:${data.contact.tel}`} className="inline-flex items-center gap-x-1 hover:underline">
-                  <PhoneIcon className="size-3" />
-                  {data.contact.tel}
-                </a>
-              )}
-
-              {data.contact.social.map((social) => (
-                <a key={social.name} href={social.url} className="inline-flex items-center gap-x-1 hover:underline">
-                  <social.icon className="size-3" />
-                  {social.name}
-                </a>
-              ))}
-            </div>
           </div>
         </div>
         
         <Section className="py-0">
           <h2 className="text-base font-bold">About</h2>
-          <div className="text-pretty font-mono text-xs text-foreground/80">
+          <div className="text-pretty font-mono text-xs text-foreground/80 text-justify">
             {data.summary}
           </div>
         </Section>
@@ -95,7 +97,7 @@ export function CompactResume({ data }: CompactResumeProps) {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs text-foreground/80">
+                <CardContent className="mt-2 text-xs text-foreground/80 text-justify">
                   <ul>
                     {work.descriptions.map((description) => (
                       <li key={description} className="mt-1 p-1">
@@ -112,7 +114,7 @@ export function CompactResume({ data }: CompactResumeProps) {
         <Section className="py-0">
           <h2 className="text-base font-bold">Thesis</h2>
           <Card key="pubs" className="p-0">
-            <CardContent className="p-1 text-xs text-foreground/80">
+            <CardContent className="p-1 text-xs text-foreground/80 text-justify">
               <ul className="m-0 pl-0">
                 {data.publications.map((pub, index) => (
                   <li key={index} className="mt-0.5">
@@ -139,9 +141,8 @@ export function CompactResume({ data }: CompactResumeProps) {
                     </div>
                   </div>
                 </CardHeader>
-                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">{education.degree}</CardContent>
-                <CardContent className="p-1 pt-0 text-xs">
-                  {education.description}
+                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80 text-justify">
+                  {education.degree}{education.description ? `, ${education.description}` : ""}
                 </CardContent>
               </Card>
             );
@@ -184,7 +185,7 @@ export function CompactResume({ data }: CompactResumeProps) {
                     )}
                   </div>
                 </CardHeader>
-                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80">
+                <CardContent className="p-1 pt-0.5 text-xs text-foreground/80 text-justify">
                   {project.description}
                 </CardContent>
               </Card>

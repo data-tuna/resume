@@ -128,7 +128,7 @@ link: {
         "Python", "FastAPI", "React", "TypeScript", "Vite", "PostgreSQL", "Docker Compose", "HeyAPI",
       ],
       description:
-      "Developed during IC Hack ’26 (Hudson River Trading “Best Use of Data for Predictions and Decision-Making” challenge), building a modular platform that integrates Sentinel-2, climate, and soil datasets to produce region-level environmental risk insights. Implemented a research-grade carbon sequestration prediction pipeline based on Cook-Patton et al., Nature (2020), enabling dynamic region selection and GeoTIFF-based summary outputs for decision support.",
+      "Developed during IC Hack ’26 (Hudson River Trading “Best Use of Data for Predictions and Decision-Making” challenge), built a platform that integrates Sentinel-2, climate, and soil datasets to produce region-level environmental risk insights. Implemented a research-grade carbon sequestration prediction pipeline based on Cook-Patton et al., Nature (2020), enabling dynamic region selection and GeoTIFF-based  outputs for decision support.",
       link: {
         label: "TerraViz",
         href: "https://devpost.com/software/terravysers?ref_content=my-projects-tab&ref_feature=my_projects",
